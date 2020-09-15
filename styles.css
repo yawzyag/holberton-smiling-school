@@ -1,0 +1,93 @@
+:root {
+    --primary: #C271FF;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    border-radius: 22px;
+    font-size: 0.6rem;
+}
+.text-primary {
+    color: var(--primary) !important;
+}
+
+p.small-text-p {
+    font-size: 0.7rem;
+}
+
+.view {
+  min-height: 100vh;
+}
+
+.top-nav-collapse {
+  background-color: transparent !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+.navbar-dark .navbar-toggler,
+.navbar-dark .navbar-toggler:focus,
+.navbar-dark .navbar-toggler:hover {
+  border-color: transparent !important;
+}
+
+.navbar-dark .navbar-toggler:focus,
+.navbar-dark .navbar-toggler:hover {
+  outline: 1px transparent !important;
+}
+
+.navicon {
+  background: #ffffff;
+  display: block;
+  width: 1rem;
+  height: 0.17rem;
+  position: absolute;
+  transition: background 0.2s ease-out;
+  margin-bottom: 10px;
+}
+
+.navicon::before,
+.navicon::after {
+  content: "";
+  display: block;
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  background: #ffffff;
+  transition: all 0.2s ease-out;
+}
+
+.navicon::before {
+  top: 0.7rem;
+}
+
+.navicon::after {
+  top: -0.7rem;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-icon-detail {
+    margin-top: 1rem;
+  }
+  .navbar-icon-detail .navbar-brand {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .navbar-collapse {
+      margin-top: 1.5rem;
+  }
+}
