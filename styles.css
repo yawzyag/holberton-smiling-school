@@ -68,9 +68,16 @@ p.small-text-p {
   top: -0.7rem;
 }
 
+.big-text {
+  font-size: 5rem;
+}
+
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: transparent !important;
+  }
+  .big-text {
+    font-size: 3rem;
   }
 }
 
