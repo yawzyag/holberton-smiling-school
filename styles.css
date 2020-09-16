@@ -1,19 +1,40 @@
 :root {
-    --primary: #C271FF;
+  --primary: #c271ff;
 }
 
 .btn-primary {
-    background-color: var(--primary);
-    border-color: var(--primary);
-    border-radius: 22px;
-    font-size: 0.6rem;
+  background-color: var(--primary);
+  border-color: var(--primary);
+  border-radius: 22px;
+  font-size: 0.6rem;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+.carousel-control-next-icon {
+  background-image: url("./images/arrow_white_right.png");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("./images/arrow_white_left.png");
+}
+
+.carrousel-content {
+  padding: 1rem 4rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 20px;
+  height: 40px;
 }
 .text-primary {
-    color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 p.small-text-p {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 .view {
@@ -95,6 +116,6 @@ p.small-text-p {
     align-items: center;
   }
   .navbar-collapse {
-      margin-top: 1.5rem;
+    margin-top: 1.5rem;
   }
 }
