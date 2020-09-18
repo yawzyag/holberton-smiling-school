@@ -105,7 +105,6 @@ p.small-text-p {
   width: 4rem;
 }
 
-
 .social-item {
   list-style: none;
 }
@@ -126,7 +125,6 @@ p.small-text-p {
   background-color: rgb(226, 179, 235);
   color: white;
 }
-
 
 .profile-img {
   width: 200px;
@@ -198,6 +196,9 @@ p.small-text-p {
 
 .big-text {
   font-size: 5rem;
+}
+.bg-dark {
+  background-color: #071629 !important;
 }
 
 @media (max-width: 991px) {
