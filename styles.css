@@ -200,6 +200,13 @@ p.small-text-p {
 .bg-dark {
   background-color: #071629 !important;
 }
+.image-small {
+  width: 10%;
+}
+
+.image-small-text {
+  width: 20%;
+}
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
