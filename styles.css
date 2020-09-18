@@ -24,6 +24,57 @@
   padding: 1rem 4rem;
 }
 
+.carrousel-content-black .carousel-control-next-icon {
+  background-image: url("./images/arrow_black_right.png");
+}
+
+.carrousel-content-black .carousel-inner {
+  padding: 2rem 6rem;
+}
+
+.carrousel-content-black .carousel-control-prev-icon {
+  background-image: url("./images/arrow_black_left.png");
+}
+
+.carrousel-content-black .carousel {
+  width: 100%;
+}
+
+.carrousel-content-black .slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .carrousel-content-black .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carrousel-content-black .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .carrousel-content-black .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carrousel-content-black .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   width: 20px;
@@ -35,6 +86,62 @@
 
 p.small-text-p {
   font-size: 0.7rem;
+}
+
+.stars {
+  width: 15px;
+}
+
+.button-play-container {
+  position: relative;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 125px;
+  width: 4rem;
+}
+
+
+.social-item {
+  list-style: none;
+}
+
+.social-link > svg {
+  fill: white;
+}
+
+.header-row {
+  border-bottom: 1px solid gray;
+}
+
+.header i {
+  color: rgb(127, 190, 31);
+}
+
+.form-control {
+  background-color: rgb(226, 179, 235);
+  color: white;
+}
+
+
+.profile-img {
+  width: 200px;
+  max-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 125px;
+}
+
+.small-profile-img {
+  width: 60px;
+  min-height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 125px;
 }
 
 .view {
